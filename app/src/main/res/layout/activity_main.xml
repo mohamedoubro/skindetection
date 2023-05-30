@@ -1,0 +1,72 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is SkinIOT ?"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/melanoma"
+            android:contentDescription="Skin Cancer Image" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="@string/introduction"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/predict_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Try SkinIOT"
+            android:onClick="launchDetectionActivity"
+            android:layout_marginTop="16dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More information"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="@string/developement"
+            android:textSize="16sp"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conclusion"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="In addition to its powerful diagnostic capabilities, Melanoma Detector is also incredibly user-friendly. Its intuitive interface and easy-to-use design make it accessible to all doctors, regardless of their level of technical expertise. And with its offline functionality, doctors can access the app even when they're working in remote areas with limited connectivity."
+            android:textSize="16sp"
+            android:paddingTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SkinIOT</string>
+    <string name="introduction">SkinIOT is an innovative mobile application that utilizes the power of artificial intelligence and deep learning to assist doctors in accurately predicting the type of skin cancer in their patients. With this app, doctors can easily input images of skin lesions into the app, which then utilizes a Convolutional Neural Network to classify the lesion as either benign or malignant.</string>
+    <string name="developement">This app has the potential to greatly improve the accuracy of skin cancer diagnoses, which can be difficult to discern with the naked eye alone. By leveraging the power of AI, SkinIOT provides doctors with an additional tool that can help them make more informed decisions and ultimately improve patient outcomes.</string>
+    <string name="conclusion">In addition to its powerful diagnostic capabilities, SkinIOT is also incredibly user-friendly. Its intuitive interface and easy-to-use design make it accessible to all doctors, regardless of their level of technical expertise. And with its offline functionality, doctors can access the app even when they\'re working in remote areas with limited connectivity.</string>
+</resources>
